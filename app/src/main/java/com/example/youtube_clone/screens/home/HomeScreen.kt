@@ -19,10 +19,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.example.youtube_clone.CustomFilterChip
-import com.example.youtube_clone.CustomFilterChipIcon
-import com.example.youtube_clone.ImageWithText
-import com.example.youtube_clone.VideoTile
+import com.example.youtube_clone.screens.home.widget.CustomFilterChip
+import com.example.youtube_clone.screens.home.widget.CustomFilterChipIcon
+import com.example.youtube_clone.screens.home.widget.ImageWithText
+import com.example.youtube_clone.screens.home.widget.VideoTile
 import com.example.youtube_clone.utils.AppAssetPaths
 
 @Composable
