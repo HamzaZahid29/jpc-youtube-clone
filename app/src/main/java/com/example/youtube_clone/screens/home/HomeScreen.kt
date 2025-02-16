@@ -68,6 +68,28 @@ fun HomeContent(modifier: Modifier = Modifier) {
         VideoTile()
         VideoTile()
         VideoTile()
+        Spacer(Modifier.height(18.dp))
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Image(
+                painterResource(AppAssetPaths.YoutubeShortsLogo),
+                contentDescription = "Youtube Short Icon",
+                modifier = Modifier.size(28.dp)
+            )
+            Spacer(Modifier.width(8.dp))
+            Text("Shorts", style = MaterialTheme.typography.titleLarge)
+        }
+        Spacer(Modifier.height(8.dp))
+        Row(
+            Modifier
+                .fillMaxWidth()
+                .height(280.dp)
+        ) {
+            ImageWithText("Fastest car in the world 480KMPH", modifier = Modifier.weight(1f))
+            ImageWithText(
+                "Tesla's new model roadster s403e breaks world record ",
+                modifier = Modifier.weight(1f)
+            )
+        }
         VideoTile()
         VideoTile()
     }
